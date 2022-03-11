@@ -1,5 +1,5 @@
 import requests
 
-results = requests.get('https://jsonplaceholder.typicode.com/todos/1')
+results = requests.get('https://jsonplaceholder.typicode.com/users')
 
 print(results.json())
