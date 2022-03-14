@@ -16,5 +16,3 @@ p.name = 'Marcos'
 p.weight = '90'
 p.kick()
 p.swimm()
-
-print(p)

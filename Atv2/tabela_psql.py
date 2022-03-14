@@ -22,6 +22,7 @@ op = int(input('1: Adicionar pessoas \n2: Listar funcionáios \n3: Sair \nEscolh
 
 while op!=3:
     if op == 1:
+        id = int(input('Insira uma identificação para esse funcionário: '))
         name = input('Digite o nome do funcionário: ')
         salary = float(input('Salário do funcionário: '))
         gender = input('Gênero do funcionário: ')
@@ -31,6 +32,7 @@ while op!=3:
         list_employees()
 
     elif op ==3:
+        print('Conexão encerrada')
         connection.close()
 
     else:
